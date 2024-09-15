@@ -165,10 +165,37 @@ input[type=text] {
 }
 
 .message1{
-    text-align: center;
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 10px;
     display: block;
+}
 
+@media screen and (max-width: 1024px){
+
+    body {
+        font: 14px;
+    }
+
+    .wrapper{
+        height: auto ;
+        width: auto;
+    }
+
+    input[type=text] {
+        font-size: 14px;
+    }
+    
+    ::placeholder{
+        font-size: 14px;
+    }
+
+    .title h1{
+        font-size: 20px;
+    }
+
+    .message p {
+        font-size: 12px;
+    }
+
+    .task p {
+        font-size: 14px;
+    }
 }
